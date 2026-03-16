@@ -1,11 +1,11 @@
 .table-success {
-    --bs-table-bg: #0df90c;
-    --bs-table-striped-bg: #0df90c;
+    --bs-table-bg: #0df90c !important;
+    --bs-table-striped-bg: #0df90c !important;
 }
 
 .table-danger {
-    --bs-table-bg: #FF7400;
-    --bs-table-striped-bg: #FF7400;
+    --bs-table-bg: #FF7400 !important;
+    --bs-table-striped-bg: #FF7400 !important;
 }
 
 .bg-success {
@@ -14,4 +14,49 @@
 
 .bg-danger {
     background-color: #FF0002 !important;
+}
+
+.extension-container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.controls button {
+    margin-right: 5px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.controls button:hover {
+    background-color: #0056b3;
+}
+
+.width-control {
+    display: flex;
+    align-items: center;
+}
+
+.width-control label {
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.width-control input {
+    width: 100px;
+}
+
+.inner-container {
+    /* Additional styles if needed */
 }
