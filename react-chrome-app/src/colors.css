@@ -1,0 +1,17 @@
+.table-success {
+    --bs-table-bg: #0df90c;
+    --bs-table-striped-bg: #0df90c;
+}
+
+.table-danger {
+    --bs-table-bg: #FF7400;
+    --bs-table-striped-bg: #FF7400;
+}
+
+.bg-success {
+    background-color: #299617 !important;
+}
+
+.bg-danger {
+    background-color: #FF0002 !important;
+}
